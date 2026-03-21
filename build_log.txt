@@ -1,17 +1,10 @@
 Build Log: in-better-news-i-found-a-bug-in-the-websocket-implementation-of
-Started: 2026-03-18T14:03:32.886432+00:00
-Ended: 2026-03-18T14:03:33.685542+00:00
-Builder mode: inline_fallback (GLM: stub_fallback)
-Implemented:
-- /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260319T010329/projects/in-better-news-i-found-a-bug-in-the-websocket-implementation-of/README.md
-- /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260319T010329/projects/in-better-news-i-found-a-bug-in-the-websocket-implementation-of/main.py
-How to run:
-- cd /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260319T010329/projects/in-better-news-i-found-a-bug-in-the-websocket-implementation-of
-- python3 main.py
+Timestamp: 2026-03-21T14:03:01.919038+00:00
+Builder: mercury_stub
 Checks:
-- GLM generation: stub_fallback | GLM call failed: rc=1, stderr=error: unknown option '--print'
-- python3 -m py_compile main.py => rc=0
-Notes:
-- GLM-5-Turbo attempts to generate working code from PRD
-- Falls back to stub if GLM fails or times out
+- wrote README.md
+- wrote main.py
+- stub generation completed
+How to run:
+- python3 main.py
 Final status: SUCCESS
