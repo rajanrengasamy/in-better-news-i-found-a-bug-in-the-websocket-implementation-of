@@ -4,19 +4,18 @@ In better news, I found a bug in the WebSocket implementation of OpenClaw's Open
 
 ## Install
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+# No install step required for this artifact
 ```
 
 ## Usage
 ```bash
-python3 main.py
+cat PRD.md && cat build_log.txt
 ```
 
 ### Expected output
 ```text
 Command completes without runtime errors.
-Build status is reported as: SUCCESS.
+Build status is reported as: BLOCKED_BUILDER_UNAVAILABLE.
 ```
 
 ## What this project currently does
@@ -25,5 +24,5 @@ Build status is reported as: SUCCESS.
 - Include setup + run instructions in README
 
 ## Project status
-- Build status: SUCCESS
+- Build status: BLOCKED_BUILDER_UNAVAILABLE
 - Project slug: `in-better-news-i-found-a-bug-in-the-websocket-implementation-of`
